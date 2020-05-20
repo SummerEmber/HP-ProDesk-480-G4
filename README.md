@@ -7,8 +7,7 @@ Graphics         Intel HD Graphics 630
 Audio            Realtek
 Ethernet         Realtek RTL8111H
 Wi-Fi            Broadcom BCM94352HMB
-Storage          Intel SSD 256G
-Monitor          AOC U2790VQ UHD 3840x2160
+Monitor          UHD 3840x2160
 BIOS Verison     P05 Ver.02.31
 macOS Verison    Catalina 10.15.4
 Clover Verison   5116
