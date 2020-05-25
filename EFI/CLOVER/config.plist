@@ -46,9 +46,9 @@
 			<key>Generate</key>
 			<dict>
 				<key>CStates</key>
-				<true/>
+				<false/>
 				<key>PStates</key>
-				<true/>
+				<false/>
 			</dict>
 		</dict>
 		<key>SortedOrder</key>
@@ -178,7 +178,7 @@
 		<key>MLB</key>
 		<string>F5K927902GU00001F</string>
 		<key>ROM</key>
-		<data>EOfGMsE1</data>
+		<string>UseMacAddr0</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
