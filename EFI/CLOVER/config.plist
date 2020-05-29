@@ -51,18 +51,13 @@
 				<false/>
 			</dict>
 		</dict>
-		<key>SortedOrder</key>
-		<array>
-			<string>SSDT-EC-USBX.aml</string>
-			<string>SSDT-UIAC.aml</string>
-		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
-		<string>macOS</string>
+		<string>LastBootedVolume</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>NoEarlyProgress</key>
@@ -163,11 +158,11 @@
 	<key>KernelAndKextPatches</key>
 	<dict>
 		<key>AppleIntelCPUPM</key>
-		<true/>
+		<false/>
 		<key>AppleRTC</key>
 		<true/>
 		<key>KernelPm</key>
-		<true/>
+		<false/>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
@@ -193,7 +188,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>F5K947303CDK3F7A8</string>
+		<string>F5K031501QXK3F7JA</string>
 		<key>BoardType</key>
 		<integer>11</integer>
 		<key>BoardVersion</key>
@@ -223,9 +218,9 @@
 		<key>ProductName</key>
 		<string>MacPro7,1</string>
 		<key>SerialNumber</key>
-		<string>F5KZQMYJP7QM</string>
+		<string>F5KD50G1P7QM</string>
 		<key>SmUUID</key>
-		<string>45538B24-3434-4FF6-A2A2-208FA4CE52A8</string>
+		<string>FCB7EE19-2338-4F74-A801-2BC9269E1F0B</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
