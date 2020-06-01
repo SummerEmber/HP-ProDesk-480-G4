@@ -226,8 +226,6 @@
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>CustomUUID</key>
-		<string>7CCBF961-E911-48B7-B8C2-33F561F1B288</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
