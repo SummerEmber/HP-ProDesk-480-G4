@@ -36,6 +36,8 @@
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
+			<key>SlpSmiAtWake</key>
+			<false/>
 		</dict>
 		<key>FixHeaders</key>
 		<false/>
