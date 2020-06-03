@@ -99,6 +99,8 @@
 				<data>AAASWQ==</data>
 				<key>device-id</key>
 				<data>ElkAAA==</data>
+				<key>framebuffer-fbmem</key>
+				<data>AAAAAw==</data>
 				<key>framebuffer-patch-enable</key>
 				<integer>1</integer>
 				<key>framebuffer-unifiedmem</key>
@@ -165,6 +167,8 @@
 		<true/>
 		<key>KernelPm</key>
 		<false/>
+		<key>KernelXCPM</key>
+		<false/>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
@@ -190,7 +194,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>F5K031501QXK3F7JA</string>
+		<string>F5K046902GUK3F78C</string>
 		<key>BoardType</key>
 		<integer>11</integer>
 		<key>BoardVersion</key>
@@ -220,9 +224,9 @@
 		<key>ProductName</key>
 		<string>MacPro7,1</string>
 		<key>SerialNumber</key>
-		<string>F5KD50G1P7QM</string>
+		<string>F5KDPBZDP7QM</string>
 		<key>SmUUID</key>
-		<string>FCB7EE19-2338-4F74-A801-2BC9269E1F0B</string>
+		<string>737C29EB-1695-4593-ABCE-69C4485E9060</string>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
