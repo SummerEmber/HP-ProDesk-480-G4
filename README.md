@@ -15,5 +15,5 @@ OpenCore Version   0.5.9
 ```
 
 ## Notice: 
-This EFI can't work with the BIOS version higher than 02.31 (such as 02.32).  
-For using 4K monitor you should set VRAM lager than 64M in the BIOS.
+Both Clover & OpenCore EFI can't work with the BIOS version higher than 02.31 (such as 02.32) due to unknown cause.  
+For using 4K monitor please set VRAM lager than 64M in BIOS.
