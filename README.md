@@ -1,6 +1,7 @@
 # HP-ProDeskHackintosh Clover & OpenCore EFI for HP ProDesk 480 G4
 ```
 Model              HP ProDesk 480 G4
+Mainboard          Intel H270
 CPU                Intel Core i7-7700
 Memory             24G DDR4 2133MHz (8G+16G)
 Graphics           Intel HD Graphics 630
