@@ -9,12 +9,8 @@ Audio              Conexant CX20632
 Ethernet           Realtek RTL8111H
 Wi-Fi              Broadcom BCM94352HMB
 Monitor            UHD 3840x2160
-BIOS Verison       P05 Ver.02.31
+BIOS Verison       P05 Ver.02.34
 macOS Verison      Catalina 10.15.5
 Clover Verison     5118
 OpenCore Version   0.5.9
 ```
-
-## Notice: 
-Both Clover & OpenCore EFI can't work with the BIOS version higher than 02.31 (such as 02.32) due to unknown cause.  
-For using 4K monitor please set VRAM lager than 64M in BIOS.
