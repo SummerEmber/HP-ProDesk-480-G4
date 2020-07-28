@@ -10,7 +10,7 @@ Ethernet           Realtek RTL8111H
 Wi-Fi              Broadcom BCM94352HMB
 Monitor            UHD 3840x2160
 BIOS Verison       P05 Ver.02.34
-macOS Verison      Catalina 10.15.5
+macOS Verison      Catalina 10.15.6
 Clover Verison     5120
 OpenCore Version   0.5.9
 ```
