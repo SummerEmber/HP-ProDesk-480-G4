@@ -139,6 +139,22 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
+				<string>WhateverGreen.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/WhateverGreen</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -155,13 +171,29 @@
 			</dict>
 			<dict>
 				<key>BundlePath</key>
-				<string>WhateverGreen.kext</string>
+				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/WhateverGreen</string>
+				<string>Contents/MacOS/SMCProcessor</string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>BundlePath</key>
+				<string>SMCSuperIO.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/SMCSuperIO</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -382,6 +414,8 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>2147483650</integer>
+			<key>SerialInit</key>
+			<false/>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
@@ -396,8 +430,6 @@
 			<key>AllowSetDefault</key>
 			<false/>
 			<key>AuthRestart</key>
-			<false/>
-			<key>BlacklistAppleUpdate</key>
 			<false/>
 			<key>BootProtect</key>
 			<string>None</string>
@@ -454,7 +486,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02939310GUH69F1H</string>
+			<string>C02732303QXH69F1H</string>
 			<key>ROM</key>
 			<data>ESIzRFVm</data>
 			<key>SpoofVendor</key>
@@ -462,18 +494,18 @@
 			<key>SystemProductName</key>
 			<string>iMac18,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02ZGQZLH7JY</string>
+			<string>C02V60JXH7JY</string>
 			<key>SystemUUID</key>
-			<string>27FA9649-5D1F-4C91-A37E-349E4AE576D4</string>
+			<string>4B1590FB-08F0-438A-B1D4-0238CD29177A</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
 			<key>BIOSReleaseDate</key>
-			<string>04/24/2020</string>
+			<string>06/16/2020</string>
 			<key>BIOSVendor</key>
 			<string></string>
 			<key>BIOSVersion</key>
-			<string>183.0.0.0.0</string>
+			<string>428.0.0.0.0</string>
 			<key>BoardAssetTag</key>
 			<string></string>
 			<key>BoardLocationInChassis</key>
@@ -483,7 +515,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-4B682C642B45593E</string>
 			<key>BoardSerialNumber</key>
-			<string>C02939310GUH69F1H</string>
+			<string>C02732303QXH69F1H</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -493,7 +525,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02ZGQZLH7JY</string>
+			<string>C02V60JXH7JY</string>
 			<key>ChassisType</key>
 			<integer>9</integer>
 			<key>ChassisVersion</key>
@@ -519,9 +551,9 @@
 			<key>SystemSKUNumber</key>
 			<string>Mac-4B682C642B45593E</string>
 			<key>SystemSerialNumber</key>
-			<string>C02ZGQZLH7JY</string>
+			<string>C02V60JXH7JY</string>
 			<key>SystemUUID</key>
-			<string>27FA9649-5D1F-4C91-A37E-349E4AE576D4</string>
+			<string>4B1590FB-08F0-438A-B1D4-0238CD29177A</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -540,6 +572,8 @@
 		<dict>
 			<key>EnableJumpstart</key>
 			<true/>
+			<key>GlobalConnect</key>
+			<false/>
 			<key>HideVerbose</key>
 			<true/>
 			<key>JumpstartHotPlug</key>
@@ -616,6 +650,8 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
+			<key>UgaPassThrough</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -626,6 +662,8 @@
 			<key>AppleDebugLog</key>
 			<false/>
 			<key>AppleEvent</key>
+			<false/>
+			<key>AppleFramebufferInfo</key>
 			<false/>
 			<key>AppleImageConversion</key>
 			<false/>
