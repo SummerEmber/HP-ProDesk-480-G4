@@ -12,5 +12,5 @@ Monitor            UHD 3840x2160
 BIOS Verison       P05 Ver.02.35
 macOS Verison      Catalina 10.15.6
 Clover Verison     5122
-OpenCore Version   0.6.0
+OpenCore Version   0.6.1
 ```
