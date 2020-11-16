@@ -1,4 +1,4 @@
-# HP-ProDeskHackintosh Clover & OpenCore EFI for HP ProDesk 480 G4
+# Hackintosh OpenCore EFI for HP ProDesk 480 G4
 ```
 Model              HP ProDesk 480 G4
 Mainboard          Intel H270
