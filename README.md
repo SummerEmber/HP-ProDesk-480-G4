@@ -11,5 +11,5 @@ Wi-Fi              Broadcom BCM94352HMB
 Monitor            UHD 3840x2160
 BIOS Verison       P05 Ver.02.35
 macOS Verison      Big Sur 11.0.1
-OpenCore Version   0.6.3
+OpenCore Version   0.6.4
 ```
