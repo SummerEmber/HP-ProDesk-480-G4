@@ -108,6 +108,15 @@
 				<key>model</key>
 				<string>Conexant CX20632</string>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
+			<dict>
+				<key>framebuffer-patch-enable</key>
+				<data>AQAAAA==</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>AAAAgA==</data>
+				<key>model</key>
+				<string>Intel HD Graphics 530</string>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -568,7 +577,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02720303GUH69F1H</string>
+			<string>C02751405CDH69FA8</string>
 			<key>ProcessorType</key>
 			<integer>1543</integer>
 			<key>ROM</key>
@@ -580,9 +589,9 @@
 			<key>SystemProductName</key>
 			<string>iMac18,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02TQKYDH7JY</string>
+			<string>C02VVPZBH7JY</string>
 			<key>SystemUUID</key>
-			<string>B0C7721F-8CA7-4491-B0DA-350F46ADE0B2</string>
+			<string>55F53054-4A57-4D4F-8040-36DAFCB1513E</string>
 		</dict>
 		<key>SMBIOS</key>
 		<dict>
@@ -601,7 +610,7 @@
 			<key>BoardProduct</key>
 			<string>Mac-4B682C642B45593E</string>
 			<key>BoardSerialNumber</key>
-			<string>C02720303GUH69F1H</string>
+			<string>C02751405CDH69FA8</string>
 			<key>BoardType</key>
 			<integer>10</integer>
 			<key>BoardVersion</key>
@@ -611,7 +620,7 @@
 			<key>ChassisManufacturer</key>
 			<string></string>
 			<key>ChassisSerialNumber</key>
-			<string>C02TQKYDH7JY</string>
+			<string>C02VVPZBH7JY</string>
 			<key>ChassisType</key>
 			<integer>13</integer>
 			<key>ChassisVersion</key>
@@ -635,9 +644,9 @@
 			<key>SystemSKUNumber</key>
 			<string>System SKU#</string>
 			<key>SystemSerialNumber</key>
-			<string>C02TQKYDH7JY</string>
+			<string>C02VVPZBH7JY</string>
 			<key>SystemUUID</key>
-			<string>B0C7721F-8CA7-4491-B0DA-350F46ADE0B2</string>
+			<string>55F53054-4A57-4D4F-8040-36DAFCB1513E</string>
 			<key>SystemVersion</key>
 			<string>1.0</string>
 		</dict>
@@ -683,6 +692,8 @@
 			<integer>20</integer>
 			<key>PlayChime</key>
 			<string>Auto</string>
+			<key>ResetTrafficClass</key>
+			<false/>
 			<key>SetupDelay</key>
 			<integer>0</integer>
 			<key>VolumeAmplifier</key>
@@ -701,8 +712,6 @@
 			<false/>
 			<key>KeyForgetThreshold</key>
 			<integer>5</integer>
-			<key>KeyMergeThreshold</key>
-			<integer>2</integer>
 			<key>KeySupport</key>
 			<true/>
 			<key>KeySupportMode</key>
@@ -725,6 +734,8 @@
 			<key>DirectGopRendering</key>
 			<false/>
 			<key>ForceResolution</key>
+			<false/>
+			<key>GopPassThrough</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
 			<false/>
@@ -784,6 +795,8 @@
 		</dict>
 		<key>Quirks</key>
 		<dict>
+			<key>ActivateHpetSupport</key>
+			<false/>
 			<key>DisableSecurityPolicy</key>
 			<false/>
 			<key>ExitBootServicesDelay</key>
