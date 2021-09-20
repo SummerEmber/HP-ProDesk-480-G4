@@ -9,7 +9,7 @@ Audio              Conexant CX20632
 Ethernet           Realtek RTL8111H
 Wi-Fi              Broadcom BCM94352HMB
 Monitor            UHD 3840x2160
-BIOS Verison       P05 Ver.02.35
-macOS Verison      Big Sur 11.5
-OpenCore Version   0.7.2
+BIOS Verison       P05 Ver.02.36
+macOS Verison      Big Sur 11.6
+OpenCore Version   0.7.3
 ```
