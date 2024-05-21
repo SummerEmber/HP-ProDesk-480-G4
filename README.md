@@ -11,5 +11,5 @@ Wi-Fi              Broadcom BCM94352HMB
 Monitor            UHD 3840x2160
 BIOS Verison       P05 Ver.02.36
 macOS Verison      Ventura 13.6.7
-OpenCore Version   0.9.9
+OpenCore Version   1.0.0
 ```
