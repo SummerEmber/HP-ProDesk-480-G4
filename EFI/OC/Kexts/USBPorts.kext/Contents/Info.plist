@@ -22,12 +22,12 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>iMac18,1-XHC</key>
+		<key>iMac19,2-XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
-			<string>AppleUSBMergeNub</string>
+			<string>AppleUSBHostMergeProperties</string>
 			<key>IONameMatch</key>
 			<string>XHC</string>
 			<key>IOPCIPrimaryMatch</key>
@@ -62,6 +62,12 @@
 						<data>
 						AgAAAA==
 						</data>
+						<key>usb-port-number</key>
+						<data>
+						AgAAAA==
+						</data>
+						<key>usb-port-type</key>
+						<integer>0</integer>
 					</dict>
 					<key>HS03</key>
 					<dict>
@@ -73,6 +79,12 @@
 						<data>
 						AwAAAA==
 						</data>
+						<key>usb-port-number</key>
+						<data>
+						AwAAAA==
+						</data>
+						<key>usb-port-type</key>
+						<integer>0</integer>
 					</dict>
 					<key>HS06</key>
 					<dict>
@@ -84,6 +96,12 @@
 						<data>
 						BgAAAA==
 						</data>
+						<key>usb-port-number</key>
+						<data>
+						BgAAAA==
+						</data>
+						<key>usb-port-type</key>
+						<integer>0</integer>
 					</dict>
 					<key>HS07</key>
 					<dict>
@@ -95,6 +113,12 @@
 						<data>
 						BwAAAA==
 						</data>
+						<key>usb-port-number</key>
+						<data>
+						BwAAAA==
+						</data>
+						<key>usb-port-type</key>
+						<integer>0</integer>
 					</dict>
 					<key>HS08</key>
 					<dict>
@@ -106,17 +130,12 @@
 						<data>
 						CAAAAA==
 						</data>
-					</dict>
-					<key>HS09</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>0</integer>
-						<key>name</key>
-						<string>HS09</string>
-						<key>port</key>
+						<key>usb-port-number</key>
 						<data>
-						CQAAAA==
+						CAAAAA==
 						</data>
+						<key>usb-port-type</key>
+						<integer>255</integer>
 					</dict>
 					<key>HS10</key>
 					<dict>
@@ -128,11 +147,15 @@
 						<data>
 						CgAAAA==
 						</data>
+						<key>usb-port-number</key>
+						<data>
+						CgAAAA==
+						</data>
+						<key>usb-port-type</key>
+						<integer>0</integer>
 					</dict>
 					<key>HS11</key>
 					<dict>
-						<key>Comment</key>
-						<string></string>
 						<key>UsbConnector</key>
 						<integer>0</integer>
 						<key>name</key>
@@ -141,6 +164,12 @@
 						<data>
 						CwAAAA==
 						</data>
+						<key>usb-port-number</key>
+						<data>
+						CwAAAA==
+						</data>
+						<key>usb-port-type</key>
+						<integer>0</integer>
 					</dict>
 					<key>HS12</key>
 					<dict>
@@ -152,6 +181,12 @@
 						<data>
 						DAAAAA==
 						</data>
+						<key>usb-port-number</key>
+						<data>
+						DAAAAA==
+						</data>
+						<key>usb-port-type</key>
+						<integer>0</integer>
 					</dict>
 					<key>SS02</key>
 					<dict>
@@ -163,6 +198,12 @@
 						<data>
 						EgAAAA==
 						</data>
+						<key>usb-port-number</key>
+						<data>
+						EgAAAA==
+						</data>
+						<key>usb-port-type</key>
+						<integer>3</integer>
 					</dict>
 					<key>SS03</key>
 					<dict>
@@ -174,6 +215,12 @@
 						<data>
 						EwAAAA==
 						</data>
+						<key>usb-port-number</key>
+						<data>
+						EwAAAA==
+						</data>
+						<key>usb-port-type</key>
+						<integer>3</integer>
 					</dict>
 					<key>SS05</key>
 					<dict>
@@ -185,6 +232,12 @@
 						<data>
 						FQAAAA==
 						</data>
+						<key>usb-port-number</key>
+						<data>
+						FQAAAA==
+						</data>
+						<key>usb-port-type</key>
+						<integer>3</integer>
 					</dict>
 					<key>SS06</key>
 					<dict>
@@ -196,11 +249,17 @@
 						<data>
 						FgAAAA==
 						</data>
+						<key>usb-port-number</key>
+						<data>
+						FgAAAA==
+						</data>
+						<key>usb-port-type</key>
+						<integer>3</integer>
 					</dict>
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>iMac18,1</string>
+			<string>iMac19,2</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>
