@@ -1,4 +1,5 @@
 # Hackintosh OpenCore EFI for HP ProDesk 480 G4
+## Specifications
 ```
 Model              HP ProDesk 480 G4
 Mainboard          Intel H270
