@@ -8,9 +8,9 @@ Memory             16G DDR4 2133MHz (8G+8G)
 Graphics           Intel HD Graphics 530/630 & AMD RX460/560 2G
 Audio              Conexant CX20632
 Ethernet           Realtek RTL8111H
-Wi-Fi              Broadcom BCM94352HMB
+Wi-Fi              None
 Monitor            UHD 3840x2160
 BIOS Verison       P05 Ver.02.50
-macOS Verison      Sequoia 15.8.2
+macOS Verison      Sequoia 15.8.3
 OpenCore Version   1.0.8
 ```
